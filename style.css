@@ -20,6 +20,11 @@ header {
   height: 150px;
 }
 
+section {
+  margin: auto;
+  padding: 20px 80px 20px 80px;
+}
+
 h1 {
   font-size: 40px;
 }
@@ -36,6 +41,15 @@ ul, ol {
   font-size: 14px;
 }
 
+li {
+  list-style-position: inside;
+}
+
+a:link    { color: #50514F;  }
+a:visited { color: #70716F;   }
+a:hover   { color: green; }
+a:active  { color: #70716F  }
+
 .wrapper {
   margin: auto;
   padding: 20px 80px 20px 80px;
@@ -47,6 +61,4 @@ ul, ol {
   padding-top: 15px;
 }
 
-li {
-  list-style-position: inside;
-}
+
